@@ -1,0 +1,50 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+build.bat
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# 本地解包的原版客户端（体积大且不可再分发，勿提交）
+/version.json
+/assets/minecraft/
+/assets/.mcassetsroot
+/com/
+/net/
+/META-INF/
+/logs/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr

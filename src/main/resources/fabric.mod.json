@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "terrainrecorder",
+	"version": "${version}",
+	"name": "Terrain Recorder",
+	"description": "地形记录器（纯客户端）：/rec 保存地形快照，/recmode 扩充或修正地形图，/find 实时红色高亮差异方块（可透视）。支持英文 / 简体中文 / 繁体中文。",
+	"authors": [
+		"JimmyXiao"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/terrainrecorder/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.terrainrecorder.client.TerrainRecorderClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "terrainrecorder.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

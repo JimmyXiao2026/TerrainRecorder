@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.terrainrecorder.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ClientBlockChangeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
